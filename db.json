@@ -1,0 +1,75 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Indian Basmati Rice Export Business",
+      "img": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6",
+      "author": "Rice Export Team",
+      "date": "01-10-2026"
+    },
+    {
+      "id": "2",
+      "title": "Fresh Onion Export from India",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWkG31gCO-u6TWGh8HbyMJonWE4M8XW8JC0Kea38GGTrHATFsszgywNyx6&s=10",
+      "author": "Fresh Agro Exports",
+      "date": "03-11-2026"
+    },
+    {
+      "id": "3",
+      "title": "Indian Mango Export Business",
+      "img": "https://images.unsplash.com/photo-1553279768-865429fa0078",
+      "author": "Mango Export House",
+      "date": "05-11-2026"
+    },
+    {
+      "id": "4",
+      "title": "Cotton Yarn Export from India",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1N8M1gwMlKV0EEH9Om6xsgG-8DHl6StcwX9Li3urQH0EV4gxqg_a0GSN1&s=10",
+      "author": "Textile Export Group",
+      "date": "07-11-2026"
+    },
+    {
+      "id": "5",
+      "title": "Indian Ceramic Tiles Export",
+      "img": "https://images.unsplash.com/photo-1610701596007-11502861dcfa",
+      "author": "Ceramic Trade India",
+      "date": "10-11-2026"
+    },
+    {
+      "id": "6",
+      "title": "Handicraft Products Export from India",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxEPLcOuLcP9vZ-R5Ei3uBbhY4neULfyh1HkVq7ag3WLBvuCsKLY8FtaE&s=10",
+      "author": "Indian Handicraft Exports",
+      "date": "12-11-2026"
+    },
+    {
+      "id": "7",
+      "title": "Indian Green Tea Export Business",
+      "img": "https://ik.imagekit.io/3kikvtrqs/blog/posts/post-92-1786528139.png",
+      "author": "Tea Export Company",
+      "date": "15-11-2026"
+    },
+    {
+      "id": "8",
+      "title": "Groundnut Export from Gujarat",
+      "img": "https://5.imimg.com/data5/SELLER/Default/2021/3/BL/LB/DL/125580009/ground-nut-2-jpg-500x500.jpg",
+      "author": "Gujarat Agro Exports",
+      "date": "18-11-2026"
+    },
+    {
+      "id": "9",
+      "title": "Indian Leather Products Export",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUy8hjcNMISKjpkIk6dhj7GqCpDvGfRBm88JdPOonsAw&s=10",
+      "author": "Leather Export House",
+      "date": "20-11-2026"
+    },
+    {
+      "id": "10",
+      "title": "Auto Parts Export from Rajkot",
+      "img": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3",
+      "author": "Rajkot Auto Exports",
+      "date": "25-11-2026"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

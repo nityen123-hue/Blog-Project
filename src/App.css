@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #e7e1e1;
+}
+.main-layout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  align-items: flex-start;
+}
+
+.left-side {
+  width: 300px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 20px;
+}
+
+.form-container {
+  width: 100%;
+  padding: 25px;
+  background: #f3ecec;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(129, 123, 123, 0.25);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  background: white;
+}
+
+.form-container input:focus {
+  border-color: #0d6efd;
+}
+
+.add-btn {
+  width: 100%;
+  border: none;
+  background: #198754;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.add-btn:hover {
+  background: #157347;
+}
+.cancel-btn {
+  width: 100%;
+  border: none;
+  background: #6c757d;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.cancel-btn:hover {
+  background: #5c636a;
+}
+
+.right-side {
+  flex: 1;
+  min-width: 0;
+}
+
+.blog-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.blog-card {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+.blog-image {
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+}
+.blog-body {
+  padding: 20px;
+}
+
+.blog-number {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.blog-title {
+  color: #222;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.blog-author {
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.blog-date {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+.card-buttons {
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn,
+.edit-btn {
+  flex: 1;
+  border: none;
+  color: white;
+  padding: 9px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background: #dc3545;
+}
+
+.delete-btn:hover {
+  background: #bb2d3b;
+}
+
+.edit-btn {
+  background: #0d6efd;
+}
+
+.edit-btn:hover {
+  background: #0b5ed7;
+}
+
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
