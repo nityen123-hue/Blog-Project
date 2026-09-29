@@ -1,11 +1,11 @@
 {
   "blogs": [
     {
-      "id": "1",
       "title": "Indian Basmati Rice Export Business",
       "img": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6",
       "author": "Rice Export Team",
-      "date": "01-10-2026"
+      "date": "01-11-2025",
+      "id": "1"
     },
     {
       "id": "2",
@@ -69,7 +69,14 @@
       "img": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3",
       "author": "Rajkot Auto Exports",
       "date": "25-11-2026"
+    },
+    {
+      "title": "JEERA",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEetxWhf2Nfdu3TFVDio8WN6U5YWWVZJTcYXUlt7LAw&s=10",
+      "author": "EXPORT NK",
+      "date": "25-05-2025",
+      "id": "UWnJIDqXeRw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
-} 
+}

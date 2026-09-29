@@ -376,6 +376,9 @@ The project can contain different export products such as:
 
 ---
 
+## 🎥 Video 
+[▶️ Watch Portfolio Video](https://drive.google.com/file/d/1sUsFylbZHoq1L9vx4Ui6QsnpdFgeIPFk/view?usp=sharing)
+
 ## 💡 What I Learned
 
 Through this project, I practiced:
